@@ -1,0 +1,15 @@
+proxmox_host     = "__PROXMOX_HOST__"
+proxmox_user     = "__PROXMOX_USER__"
+proxmox_password = "__PROXMOX_PASSWORD__"
+template_ip      = "__TEMPLATE_IP__"
+salt_master      = "__SALT_MASTER_IP__"
+hostname         = "__HOSTNAME__"
+ipaddr           = "__IPADDR__"
+netmask          = "__NETMASK__"
+gateway          = "__GATEWAY__"
+target_node      = "__TARGET_NODE__"
+clone            = "__CLONE__"
+memory           = __MEMORY__
+vcpus            = __VCPUS__
+ssh_user         = "__SSH_USER__"
+ssh_password     = "__SSH_PASSWORD"
