@@ -21,5 +21,5 @@
 
 
 
-template_vars = open('vars/vm.tf.vars', 'r').read()
+template_vars = open('vars/vm.tfvars', 'r').read()
 print(template_vars)
