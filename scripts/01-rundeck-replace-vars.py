@@ -22,4 +22,5 @@
 
 
 template_vars = open('vars/vm.tfvars', 'r').read()
-print(template_vars)
+
+

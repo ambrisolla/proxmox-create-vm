@@ -1,9 +1,9 @@
-variable "hostname" {
+variable "HOSTNAME" {
   type = string
   description = "value"
 }
 
-variable "ipaddr" {
+variable "IP" {
   type = string
   description = "value"
 }
@@ -18,27 +18,27 @@ variable "gateway" {
   description = "value"
 }
 
-variable "template_ip" {
+variable "TEMPLATE_IP" {
   type = string
   description = "value"
 }
 
-variable "salt_master" {
+variable "SALT_MASTER_IP" {
   type = string
   description = "value"
 }
 
-variable "proxmox_host" {
+variable "PROXMOX_HOST" {
   type = string
   description = "value"
 }
 
-variable "proxmox_user" {
+variable "PROXMOX_USER" {
   type = string
   description = "value"
 }
 
-variable "proxmox_password" {
+variable "PROXMOX_PASSWORD" {
   type = string
   description = "value"
 }
