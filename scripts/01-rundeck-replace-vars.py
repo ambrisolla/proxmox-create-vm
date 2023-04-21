@@ -40,6 +40,6 @@ template_vars = open('vars/vm.tfvars', 'r').read()
 
 
 for env in env_list:
-    template_vars = re.sub(env,os.environ(env), template_vars)
+    template_vars = re.sub(env,os.environ[env], template_vars)
 
 print(template_vars)
