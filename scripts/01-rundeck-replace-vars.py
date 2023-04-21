@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-
+import os, re
 
 # RD_OPTION_GATEWAY=sd
 # RD_OPTION_HOSTNAME=das
@@ -23,4 +23,13 @@
 
 template_vars = open('vars/vm.tfvars', 'r').read()
 
+
+
+new_template = re.sub('PROXMOX_HOST',os.environ['PROXMOX_HOST'], template_vars)
+
+print(new_template)
+
+
+
+#new_tf_vars = open('vars/vm.tfvars', 'w')
 
