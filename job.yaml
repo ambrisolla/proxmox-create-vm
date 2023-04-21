@@ -1,0 +1,6 @@
+- name: job name
+  description: ''
+  loglevel: INFO
+  sequence:
+    commands:
+      - exec: uname -a
