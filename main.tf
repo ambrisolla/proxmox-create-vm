@@ -30,15 +30,15 @@ resource "proxmox_vm_qemu" "resource-name" {
   }
 
   provisioner "file" {
-    source      = "./scripts/post-install.sh"
-    destination = "/tmp/post-install.sh"
+    source      = "./scripts/02-post-install.sh"
+    destination = "/tmp/02-post-install.sh"
   }
 
   provisioner "remote-exec" {
     inline = [
       "sudo hostnamectl set-hostname  ${var.hostname}",
-      "chmod +x /tmp/post-install.sh",
-      "sudo /tmp/post-install.sh ${var.ipaddr} ${var.netmask} ${var.gateway} ${var.salt_master}"
+      "chmod +x /tmp/02-post-install.sh",
+      "sudo /tmp/02-post-install.sh ${var.ipaddr} ${var.netmask} ${var.gateway} ${var.salt_master}"
       ]
   }
 
