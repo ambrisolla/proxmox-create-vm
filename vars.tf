@@ -33,16 +33,6 @@ variable "proxmox_host" {
   description = "value"
 }
 
-variable "proxmox_user" {
-  type = string
-  description = "value"
-}
-
-variable "proxmox_password" {
-  type = string
-  description = "value"
-}
-
 variable "target_node" {
   type = string
   description = "value"

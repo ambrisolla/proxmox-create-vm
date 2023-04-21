@@ -8,8 +8,6 @@ terraform {
 
 provider "proxmox" {
   pm_api_url  = var.proxmox_host
-  pm_user     = var.proxmox_user
-  pm_password = var.proxmox_password
 }
 
 resource "proxmox_vm_qemu" "resource-name" {

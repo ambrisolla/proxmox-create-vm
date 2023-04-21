@@ -5,8 +5,6 @@ import re
 
 env_list = [
     'PROXMOX_HOST',
-    'PROXMOX_PASS',
-    'PROXMOX_USER',
     'RD_OPTION_GATEWAY',
     'RD_OPTION_HOSTNAME',
     'RD_OPTION_IPADDR',

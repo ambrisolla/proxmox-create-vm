@@ -1,6 +1,4 @@
 proxmox_host     = "PROXMOX_HOST"
-proxmox_user     = "PROXMOX_PASS"
-proxmox_password = "PROXMOX_USER"
 template_ip      = "TEMPLATE_IP"
 salt_master      = "SALT_MASTER_IP"
 hostname         = "RD_OPTION_HOSTNAME"
