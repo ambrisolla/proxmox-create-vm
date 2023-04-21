@@ -15,7 +15,7 @@ resource "proxmox_vm_qemu" "resource-name" {
   target_node = var.target_node
   clone       = var.clone
   memory      = var.memory
-  vcpus       = var.vcpus
+  cores       = var.cores
   scsihw      = "virtio-scsi-single"
   
   connection {

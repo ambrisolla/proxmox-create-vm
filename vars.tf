@@ -48,7 +48,7 @@ variable "memory" {
   description = "value"
 }
 
-variable "vcpus" {
+variable "cores" {
   type = number
   description = "value"
 }

@@ -8,6 +8,6 @@ gateway          = "RD_OPTION_GATEWAY"
 target_node      = "proxmox"
 clone            = "template"
 memory           = RD_OPTION_MEMORY
-vcpus            = RD_OPTION_VCPUS
+cores            = RD_OPTION_CORES
 ssh_user         = "RD_OPTION_SSH_USER"
 ssh_password     = "RD_OPTION_SSH_PASSWORD"
